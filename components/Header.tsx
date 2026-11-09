@@ -39,7 +39,7 @@ export function Header() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-white/10 bg-ink/95 text-white backdrop-blur supports-[backdrop-filter]:bg-ink/85">
+    <header className="sticky top-0 z-40 border-b border-white/10 bg-ink text-white">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:h-20 sm:px-6">
         <Link href="/" className="flex items-center gap-3" aria-label={`${site.name}, ir al inicio`}>
           <Image
@@ -98,7 +98,7 @@ export function Header() {
       <div
         id="menu-movil"
         hidden={!open}
-        className="fixed inset-x-0 top-16 bottom-0 overflow-y-auto bg-ink md:hidden"
+        className="fixed inset-x-0 top-16 bottom-0 sm:top-20 overflow-y-auto bg-ink md:hidden"
       >
         <nav aria-label="Menú móvil" className="px-4 py-6">
           <ul className="space-y-1">
