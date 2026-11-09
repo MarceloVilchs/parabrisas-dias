@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "parabrisas-dias",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "C:/Users/Frontend Marcelo/Documents/parabrisas-dias", "--", "-p", "3005"],
+      "port": 3005
+    }
+  ]
+}
